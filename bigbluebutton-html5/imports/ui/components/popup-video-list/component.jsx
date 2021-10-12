@@ -59,11 +59,12 @@ const findOptimalGrid = (canvasWidth, canvasHeight, gutter, aspectRatio, numItem
   const usableHeight = canvasHeight - gutterTotalHeight;
   let cellWidth = Math.floor(usableWidth / columns);
   let cellHeight = Math.ceil(cellWidth / aspectRatio);
+
   if ((cellHeight * rows) > usableHeight) {
     cellHeight = Math.floor(usableHeight / rows);
     cellWidth = Math.ceil(cellHeight * aspectRatio);
   }
-  const columnNumber = 3;
+  const columnNumber = columns;
 
   return {
     columnNumber,
@@ -184,30 +185,46 @@ class PopupVideoList extends React.Component {
     const { intl, streams } = this.props;
     const { optimalGrid, autoplayBlocked, shownStreams, layoutStyle } = this.state;
 
-    let gridColumns = 0;
+    let optimalWidth = 60
+    let optimalHeigth = 60
+
+    this.setOptimalGrid()
+
+    let gridColumns = 1;
+    let gridRows = 1;
     if(shownStreams.length === 1) {
       gridColumns = 1
+      gridRows = 1
+      optimalWidth = 200
+      optimalHeigth = 150
     } else if(shownStreams.length === 2){
       gridColumns = 2;
+      gridRows = 1
+      optimalWidth = 100
+      optimalHeigth = 75
     } else{
       gridColumns = 3;
+      gridRows = 1
+      optimalWidth = 50
+      optimalHeigth = 32
     }
 
     return(
         <div
             style={{position:`relative`, width:`${screen.availWidth}px`,
-              height:`${screen.availHeight}px`, backgroundImage: 'linear-gradient(-180deg, #06001e 0%, #000032 100%)'}}>
+              height:`${screen.availHeight}px`, backgroundImage: 'linear-gradient(-180deg, #06001e 0%, #000032 100%)', textAlign: 'center'}}>
           {!streams.length ? null : (
               <div
                   style={{
                     display: `grid`,
-                    width: `${optimalGrid.width}px`,
-                    height: `${optimalGrid.height}px`,
-                    gridTemplateColumns: layoutStyle === 0 ? `repeat(${gridColumns}, 320px)` : `1fr`,
-                    gridTemplateRows: layoutStyle === 0 ? `repeat(${gridColumns}, 260px)` : `1fr`,
+                    width: `git-content`,
+                    height: `${gridRows*600}`,
+                    gridGap: `10px`,
+                    gridTemplateColumns: layoutStyle === 0 ? (gridColumns === 1 ? `1fr` : `repeat(${gridColumns}, auto`) : `1fr`,
+                   // gridTemplateRows: layoutStyle === 0 ? `repeat(${gridRows}, auto)` : `1fr`,
                   }}
               >
-                { layoutStyle === 0 ? this.renderVideoList() : this.renderSingleVideo() }
+                { (layoutStyle === 1 || gridColumns === 1) ? this.renderSingleVideo() : this.renderVideoList() }
               </div>
           )}
           { !autoplayBlocked ? null : (
@@ -266,7 +283,7 @@ class PopupVideoList extends React.Component {
         .reduce((currentGrid, col) => {
           const testGrid = findOptimalGrid(
               canvasWidth, canvasHeight, gridGutter,
-              ASPECT_RATIO, numItems, 3,
+              ASPECT_RATIO, numItems, 7,
           );
           // We need a minimun of 2 rows and columns for the focused
           const focusedConstraint = hasFocusedItem ? testGrid.rows > 1 && testGrid.columns > 1 : true;

@@ -137,10 +137,9 @@ class PopupVideoListItem extends Component {
         >
           <video
             muted
-            className={cx({
-              [styles.media]: true,
-              [styles.mirroredVideo]: this.mirrorOwnWebcam,
-            })}
+            style={{
+              width: `40%`, height: `100%`
+            }}
             ref={(ref) => { this.videoTag = ref; }}
             autoPlay
             playsInline
@@ -170,7 +169,7 @@ class PopupVideoListItem extends Component {
                 <video
                     muted
                     style={{
-                      width: `320px`, height: `260px`
+                      width: `100%`, height: `100%`
                     }}
                     ref={(ref) => { this.videoTag = ref; }}
                     autoPlay
