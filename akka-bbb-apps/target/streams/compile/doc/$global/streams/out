@@ -1,0 +1,401 @@
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /home/daniele/Desktop/bbb-thesis/akka-bbb-apps/target/scala-2.12/api...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalling Scaladoc with arguments:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-dead-code[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:_[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-target:jvm-1.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UTF-8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/target/scala-2.12/api[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/daniele/.sbt/boot/scala-2.12.7/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/com.typesafe.akka/akka-slf4j_2.12/akka-slf4j_2.12-2.5.19.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/com.softwaremill.quicklens/quicklens_2.12/quicklens_2.12-1.4.11.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/ch.qos.logback/logback-classic/logback-classic-1.2.3.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/commons-codec/commons-codec/commons-codec-1.14.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/bundles/io.spray/spray-json_2.12/spray-json_2.12-1.3.4.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/org.apache.commons/commons-lang3/commons-lang3-3.9.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/org.bigbluebutton/bbb-common-message_2.12/bbb-common-message_2.12-0.0.20-SNAPSHOT.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/org.scala-lang/scala-compiler/scala-compiler-2.12.8.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/com.typesafe.akka/akka-actor_2.12/akka-actor_2.12-2.5.19.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/org.slf4j/slf4j-api/slf4j-api-1.7.25.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/com.google.code.gson/gson/gson-2.8.5.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/bundles/com.fasterxml.jackson.module/jackson-module-scala_2.12/jackson-module-scala_2.12-2.9.7.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/ch.qos.logback/logback-core/logback-core-1.2.3.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/io.lettuce/lettuce-core/lettuce-core-5.1.3.RELEASE.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/org.apache.commons/commons-pool2/commons-pool2-2.8.0.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/bundles/org.scala-lang.modules/scala-xml_2.12/scala-xml_2.12-1.0.6.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/org.scala-lang/scala-reflect/scala-reflect-2.12.8.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/bundles/org.scala-lang.modules/scala-java8-compat_2.12/scala-java8-compat_2.12-0.8.0.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/bundles/com.typesafe/config/config-1.3.3.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/bundles/com.fasterxml.jackson.module/jackson-module-paranamer/jackson-module-paranamer-2.9.7.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/io.netty/netty-handler/netty-handler-4.1.31.Final.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/io.projectreactor/reactor-core/reactor-core-3.2.3.RELEASE.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/bundles/com.thoughtworks.paranamer/paranamer/paranamer-2.8.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/bundles/com.fasterxml.jackson.core/jackson-databind/jackson-databind-2.9.7.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/io.netty/netty-codec/netty-codec-4.1.31.Final.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/org.reactivestreams/reactive-streams/reactive-streams-1.0.2.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/bundles/com.fasterxml.jackson.core/jackson-annotations/jackson-annotations-2.9.7.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/bundles/com.fasterxml.jackson.core/jackson-core/jackson-core-2.9.7.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/io.netty/netty-transport/netty-transport-4.1.31.Final.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/io.netty/netty-resolver/netty-resolver-4.1.31.Final.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/io.netty/netty-buffer/netty-buffer-4.1.31.Final.jar:/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/lib_managed/jars/io.netty/netty-common/netty-common-4.1.31.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/java/name/fraser/neil/plaintext/diff_match_patch.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/Boot.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/LockSettingsUtil.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/SystemConfiguration.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/BigBlueButtonActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/FooTypeBar.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/OutMessageGateway.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/OutMessageGatewayImp.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/api/InMessages.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/api/TimestampGenerator.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/BreakoutModel.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/CaptionModel.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/ChatModel.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/GuestsApp.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/PermissionCheck.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/PresentationModel.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/ScreenshareModel.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/SharedNotesModel.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/WhiteboardKeyUtil.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/WhiteboardModel.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/breakout/BreakoutApp2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/breakout/BreakoutHdlrHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/breakout/BreakoutRoomCreatedMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/breakout/BreakoutRoomEndedInternalMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/breakout/BreakoutRoomUsersUpdateMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/breakout/BreakoutRoomsListMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/breakout/CreateBreakoutRoomsCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/breakout/EndAllBreakoutRoomsMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/breakout/EndBreakoutRoomInternalMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/breakout/RequestBreakoutJoinURLReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/breakout/SendBreakoutUsersUpdateMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/breakout/TransferUserToMeetingRequestHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/caption/CaptionApp2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/chat/ChatApp2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/chat/ClearPublicChatHistoryPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/chat/GetChatHistoryReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/chat/SendPrivateMessagePubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/chat/SendPublicMessagePubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/chat/UserTypingPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/ChangeGroupChatAccessReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/CreateDefaultPublicGroupChat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/CreateGroupChatReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/DestroyGroupChatReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/GetGroupChatMsgsReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/GetGroupChatsReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/GroupChat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/GroupChatAddUserReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/GroupChatHdlrs.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/GroupChatRemoveUserReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/OpenGroupChatWindowReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/SendGroupChatMessageMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/groupchats/SyncGetGroupChatsInfoMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/layout/BroadcastLayoutMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/layout/GetCurrentLayoutReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/layout/LayoutApp2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/meeting/SyncGetMeetingInfoRespMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/meeting/ValidateConnAuthTokenSysMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/polls/GetCurrentPollReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/polls/PollApp2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/polls/RespondToPollReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/polls/ShowPollResultReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/polls/StartCustomPollReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/polls/StartPollReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/polls/StopPollReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentation/NewPresentationMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentation/PresentationApp2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentation/PreuploadedPresentationsPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/CreateDefaultPresentationPod.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/CreateNewPresentationPodPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/GetAllPresentationPodsReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/PdfConversionInvalidErrorSysPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/PresentationConversionCompletedSysPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/PresentationConversionEndedSysMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/PresentationConversionUpdatePubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/PresentationPageConversionStartedSysMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/PresentationPageConvertedSysMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/PresentationPageCountErrorPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/PresentationPageGeneratedPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/PresentationPodHdlrs.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/PresentationPodsApp.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/PresentationSender.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/PresentationUploadTokenReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/RemovePresentationPodPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/RemovePresentationPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/ResizeAndMovePagePubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/SetCurrentPagePubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/SetCurrentPresentationPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/SetPresentationDownloadablePubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/SetPresenterInPodReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/presentationpod/SyncGetPresentationPodsMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/screenshare/GetScreenshareStatusReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/screenshare/ScreenshareApp2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/screenshare/ScreenshareRtmpBroadcastStartedVoiceConfEvtMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/screenshare/ScreenshareRtmpBroadcastStoppedVoiceConfEvtMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/screenshare/ScreenshareStartedVoiceConfEvtMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/screenshare/ScreenshareStoppedVoiceConfEvtMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/sharednotes/ClearSharedNotePubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/sharednotes/CreateSharedNoteReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/sharednotes/DestroySharedNoteReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/sharednotes/GetSharedNotesPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/sharednotes/SharedNotesApp2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/sharednotes/SyncSharedNotePubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/sharednotes/UpdateSharedNoteReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/AssignPresenterReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/ChangeLockSettingsInMeetingCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/ChangeUserEmojiCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/ChangeUserRoleCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/EjectDuplicateUserReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/EjectUserFromMeetingCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/GetLockSettingsReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/GetRecordingStatusReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/GetUsersMeetingReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/GetWebcamsOnlyForModeratorReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/LockUserInMeetingCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/LockUsersInMeetingCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/LogoutAndEndMeetingCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/MeetingActivityResponseCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/MuteUserCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/RecordAndClearPreviousMarkersCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/RegisterUserReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/SendRecordingTimerInternalMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/SetRecordingStatusCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/SyncGetUsersMeetingRespMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/UpdateWebcamsOnlyForModeratorCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/UserActivitySignCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/UserBroadcastCamStartMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/UserBroadcastCamStopMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/UserConnectedToGlobalAudioMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/UserDisconnectedFromGlobalAudioMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/UserJoinMeetingAfterReconnectReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/UserJoinMeetingReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/UserLeaveReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/UsersApp.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/UsersApp2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/ValidateAuthTokenReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/SyncGetVoiceUsersMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/UserJoinedVoiceConfEvtMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/UserJoinedVoiceConfMessageHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/UserLeftVoiceConfEvtMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/UserMutedInVoiceConfEvtMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/UserStatusVoiceConfEvtMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/UserTalkingInVoiceConfEvtMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/VoiceApp.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/VoiceApp2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/VoiceConfCallStateEvtMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/VoiceConfRunningEvtMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/ClearWhiteboardPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/ClientToServerLatencyTracerMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/GetWhiteboardAnnotationsReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/ModifyWhiteboardAccessPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/SendCursorPositionPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/SendWhiteboardAnnotationPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/UndoWhiteboardPubMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/WhiteboardApp2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/bus/BbbMsgRouterEventBus.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/bus/InMsgBusGW.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/bus/IncomingEventBusImp.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/bus/InternalEventBus.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/bus/MessageBus.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/bus/OutEventBus2.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/bus/RecordingEventBus.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/domain/BreakoutRoom2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/domain/MeetingInactivityTracker.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/domain/MeetingState2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/BreakoutRooms.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/GroupChats.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/GuestsWaiting.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Layouts.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Polls.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/PresentationPods.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/RegisteredUsers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Streams.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Users2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Values.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/VoiceUsers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Webcams.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/pubsub/senders/ReceivedJsonMsgDeserializer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/pubsub/senders/ReceivedJsonMsgHandlerActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/AbstractCaptionRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/AbstractChatRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/AbstractDeskshareRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/AbstractParticipantRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/AbstractPollRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/AbstractPresentationRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/AbstractVoiceRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/AbstractWhiteboardRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/AddShapeWhiteboardRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/AssignPresenterRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/ClearPublicChatRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/ClearWhiteboardRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/ConversionCompletedPresentationRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/CreatePresentationPodRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/DeskshareStartRtmpRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/DeskshareStopRtmpRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/EditCaptionHistoryRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/EndAndKickAllRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/GotoSlideRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/ParticipantJoinRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/ParticipantJoinedVoiceRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/ParticipantLeftRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/ParticipantLeftVoiceRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/ParticipantMutedVoiceRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/ParticipantStatusChangeRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/ParticipantTalkingVoiceRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/PollStartedRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/PollStoppedRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/PublicChatRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/RecordChapterBreakRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/RecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/RecordStatusRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/RecordStatusResetEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/RemovePresentationPodRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/RemovePresentationRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/ResizeAndMoveSlideRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/SetPresentationDownloadable.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/SetPresenterInPodRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/SharePresentationRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/StartRecordingVoiceRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/StopRecordingVoiceRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/UndoAnnotationRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/UserRespondedToPollRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/WebcamsOnlyForModeratorRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/record/events/WhiteboardCursorMoveRecordEvent.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/running/AuditHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/running/BaseMeetingActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/running/HandlerHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/running/LiveMeeting.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/running/LogHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/running/MeetingActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/running/MeetingActorAudit.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/running/MeetingExpiryTrackerHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/running/OutMsgRouter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/running/RunningMeeting.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/RandomStringGenerator.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/TimeUtil.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/Bezier.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/BezierPath.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/BezierPathIterator.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/BezierWrapper.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/Geom.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/PathCommands.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/PathData.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/Shapes.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/AnalyticsActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/FromAkkaAppsMsgSenderActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/MeetingStatus2x.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/ReceivedMessageRouter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/RunningMeetings.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/EjectUserFromVoiceCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/IsMeetingMutedReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/MuteAllExceptPresentersCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/MuteMeetingCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/RecordingStartedVoiceConfEvtMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/SendBreakoutTimeRemainingMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/SendTimeRemainingUpdateHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/guests/GetGuestPolicyReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/guests/GetGuestsWaitingApprovalReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/guests/GuestsWaitingApprovedMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/guests/SetGuestPolicyMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/meeting/CreateMeetingReqMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/meeting/DestroyMeetingSysCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/handlers/meeting/EndMeetingSysCmdMsgHdlr.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/senders/MsgBuilder.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/senders/Sender.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/senders/UserJoinedMeetingEvtMsgBuilder.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/senders/UserLeftMeetingEvtMsgSender.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/message/senders/ValidateAuthTokenRespMsgSender.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/testdata/FakeTestData.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/testdata/FakeUserGenerator.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core2/voiceconf/VoiceConfActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/endpoint/redis/AkkaAppsRedisSubscriberActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/endpoint/redis/RedisRecorderActor.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/ValidateAuthTokenReqMsgHdlr.scala:8:62: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.core2.message.senders.{ MsgBuilder, Sender }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/VoiceConfCallStateEvtMsgHdlr.scala:4:40: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.core.models.{ VoiceUserState, VoiceUsers }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/VoiceConfCallStateEvtMsgHdlr.scala:4:56: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.core.models.{ VoiceUserState, VoiceUsers }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/SendCursorPositionPubMsgHdlr.scala:25:11: local val meetingId in method handle is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val meetingId = liveMeeting.props.meetingProp.intId[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/SendCursorPositionPubMsgHdlr.scala:26:11: local val reason in method handle is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val reason = "No permission to send your cursor position."[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/SendWhiteboardAnnotationPubMsgHdlr.scala:45:9: local method testInsertSomeNoneValues in method handle is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def testInsertSomeNoneValues(annotation: AnnotationVO): AnnotationVO = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/SendWhiteboardAnnotationPubMsgHdlr.scala:51:9: local method printAnnotationShape in method handle is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def printAnnotationShape(annotationInfo: scala.collection.immutable.Map[String, Any], annotation: AnnotationVO): AnnotationVO = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/SendWhiteboardAnnotationPubMsgHdlr.scala:61:9: local method printAnnotationInfo in method handle is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def printAnnotationInfo(annotation: AnnotationVO): AnnotationVO = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:2:21: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport akka.actor.{ Actor, ActorLogging, Props }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:2:28: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport akka.actor.{ Actor, ActorLogging, Props }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:2:42: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport akka.actor.{ Actor, ActorLogging, Props }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:3:26: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.SystemConfiguration[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:4:39: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.fasterxml.jackson.databind.JsonNode[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:6:35: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.core.bus._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:7:32: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.core2.ReceivedMessageRouter[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:8:39: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport scala.reflect.runtime.universe._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:9:38: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.common2.bus.ReceivedJsonMessage[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:10:38: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.common2.bus.IncomingJsonMessageBus[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Polls.scala:461:15: private var _responders in class Poll is never updated: consider using immutable val[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private var _responders = new ArrayBuffer[Responder]()[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Polls.scala:593:15: private var currentPoll in class Polls is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private var currentPoll: Option[Poll] = None[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/PresentationPods.scala:4:38: imported `PresentationInPod' is permanently hidden by definition of object PresentationInPod in package models[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.core.models.PresentationInPod[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/PresentationPods.scala:3:41: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.common2.domain.PageVO[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Users2x.scala:209:15: private method findUserFromCache in class Users2x is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def findUserFromCache(intId: String): Option[UserState] = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/Bezier.java:37:14: Variable Id undefined in comment for class Bezier in class Bezier[0m
+[0m[[0m[33mwarn[0m] [0m[0m * @version $Id$[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/BezierPath.java:36:14: Variable Id undefined in comment for class BezierPath in class BezierPath[0m
+[0m[[0m[33mwarn[0m] [0m[0m * @version $Id$[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/BezierPathIterator.java:33:14: Variable Id undefined in comment for class BezierPathIterator in class BezierPathIterator[0m
+[0m[[0m[33mwarn[0m] [0m[0m * @version $Id$[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/Geom.java:28:14: Variable Id undefined in comment for class Geom in class Geom[0m
+[0m[[0m[33mwarn[0m] [0m[0m * @version $Id$[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/Shapes.java:28:14: Variable Id undefined in comment for class Shapes in class Shapes[0m
+[0m[[0m[33mwarn[0m] [0m[0m * @version $Id$[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/java/name/fraser/neil/plaintext/diff_match_patch.java:2182:3: Could not find any member to link for "IllegalArgumentException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/java/name/fraser/neil/plaintext/diff_match_patch.java:1423:3: Could not find any member to link for "IllegalArgumentException".[0m
+[0m[[0m[33mwarn[0m] [0m[0m  /**[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/util/jhotdraw/BezierPathIterator.java:23:1: The link target "BezierPath#getPathIterator" is ambiguous. Several members fit the target:[0m
+[0m[[0m[33mwarn[0m] [0m[0m(at: java.awt.geom.AffineTransform,flatness: Double): java.awt.geom.PathIterator in class BezierPath [chosen][0m
+[0m[[0m[33mwarn[0m] [0m[0m(at: java.awt.geom.AffineTransform): java.awt.geom.PathIterator in class BezierPath[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mQuick crash course on using Scaladoc links[0m
+[0m[[0m[33mwarn[0m] [0m[0m==========================================[0m
+[0m[[0m[33mwarn[0m] [0m[0mDisambiguating terms and types: Prefix terms with '$' and types with '!' in case both names are in use:[0m
+[0m[[0m[33mwarn[0m] [0m[0m - [[scala.collection.immutable.List!.apply class List's apply method]] and[0m
+[0m[[0m[33mwarn[0m] [0m[0m - [[scala.collection.immutable.List$.apply object List's apply method]][0m
+[0m[[0m[33mwarn[0m] [0m[0mDisambiguating overloaded members: If a term is overloaded, you can indicate the first part of its signature followed by *:[0m
+[0m[[0m[33mwarn[0m] [0m[0m - [[[scala.collection.immutable.List$.fill[A](Int)(⇒A):List[A]* Fill with a single parameter]]][0m
+[0m[[0m[33mwarn[0m] [0m[0m - [[[scala.collection.immutable.List$.fill[A](Int,Int)(⇒A):List[List[A]]* Fill with a two parameters]]][0m
+[0m[[0m[33mwarn[0m] [0m[0mNotes:[0m
+[0m[[0m[33mwarn[0m] [0m[0m - you can use any number of matching square brackets to avoid interference with the signature[0m
+[0m[[0m[33mwarn[0m] [0m[0m - you can use \\. to escape dots in prefixes (don't forget to use * at the end to match the signature!)[0m
+[0m[[0m[33mwarn[0m] [0m[0m - you can use \\# to escape hashes, otherwise they will be considered as delimiters, like dots.[0m
+[0m[[0m[33mwarn[0m] [0m[0m/**[0m
+[0m[[0m[33mwarn[0m] [0m[0m^[0m
+[0m[[0m[33mwarn[0m] [0m[0m31 warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m

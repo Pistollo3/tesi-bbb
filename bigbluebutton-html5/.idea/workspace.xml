@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2ccfea7-fb8a-48b6-9fac-a96230601448" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-bbb-apps/src/main/scala/org/bigbluebutton/core/pubsub/senders/ReceivedJsonMsgHandlerActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-bbb-apps/src/main/scala/org/bigbluebutton/core/pubsub/senders/ReceivedJsonMsgHandlerActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-bbb-apps/src/main/scala/org/bigbluebutton/core/running/MeetingActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-bbb-apps/src/main/scala/org/bigbluebutton/core/running/MeetingActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../akka-bbb-apps/src/universal/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-bbb-apps/src/universal/conf/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/api/voice-users/server/methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/api/voice-users/server/methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/api/voice-users/server/methods/excludeVoiceToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/api/voice-users/server/methods/excludeVoiceToggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/api/voice-users/server/methods/muteToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/api/voice-users/server/methods/muteToggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/audio/audio-modal/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/audio/audio-modal/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/popup-button/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/popup-button/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/popup-button/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/popup-button/container.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/popup-video-list/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/popup-video-list/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/popup-video-list/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/popup-video-list/container.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/popup-video-list/popup-video-list-item/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/popup-video-list/popup-video-list-item/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/popup-video-list/popup-video-list-item/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/popup-video-list/popup-video-list-item/container.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/popup-video-list/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/popup-video-list/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/user-list/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/user-list/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/user-list/user-list-content/user-participants/user-list-item/user-dropdown/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/user-list/user-list-content/user-participants/user-list-item/user-dropdown/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/video-frame-preview/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/video-frame-preview/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/video-provider/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/video-provider/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/video-provider/video-frame-button/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/video-provider/video-frame-button/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/video-provider/video-list/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/video-provider/video-list/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/components/video-provider/video-list/video-list-item/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/components/video-provider/video-list/video-list-item/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/services/audio-manager/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/services/audio-manager/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/private/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bigbluebutton-web/grails-app/conf/bigbluebutton.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../bigbluebutton-web/grails-app/conf/bigbluebutton.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1khpPiOwK97Jh5PAelL9dp1RqNc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="enabled" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.17.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="8.10.66" />
+    <property name="js.meteor.library.cached" value="$PROJECT_DIR$/.meteor" />
+    <property name="js.meteor.library.was.enabled" value="true" />
+    <property name="js.meteor.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imports/ui/components/popup-video-list/popup-video-list-item" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/imports/ui/components/popup-video-list/popup-video-list-item" />
+      <recent name="$PROJECT_DIR$/imports/ui/components/popup-video-list" />
+      <recent name="$PROJECT_DIR$/imports/ui/components/hide-button" />
+      <recent name="$PROJECT_DIR$/imports/ui/components/video-provider/video-list/video-list-frame" />
+      <recent name="$PROJECT_DIR$/imports/ui/components/video-frame-preview" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2ccfea7-fb8a-48b6-9fac-a96230601448" name="Default Changelist" comment="" />
+      <created>1606162654367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606162654367</updated>
+      <workItem from="1606162655689" duration="315000" />
+      <workItem from="1606163811622" duration="3798000" />
+      <workItem from="1606168482297" duration="613000" />
+      <workItem from="1606334628875" duration="349000" />
+      <workItem from="1606334989108" duration="5732000" />
+      <workItem from="1606574672146" duration="6102000" />
+      <workItem from="1607673864081" duration="1762000" />
+      <workItem from="1607675652420" duration="3908000" />
+      <workItem from="1607935668926" duration="4325000" />
+      <workItem from="1607940207558" duration="37000" />
+      <workItem from="1607940266633" duration="25000" />
+      <workItem from="1607940637828" duration="34000" />
+      <workItem from="1609790474264" duration="4725000" />
+      <workItem from="1609859166372" duration="6050000" />
+      <workItem from="1610029925649" duration="5447000" />
+      <workItem from="1610209303101" duration="3410000" />
+      <workItem from="1610287106438" duration="4386000" />
+      <workItem from="1610976039807" duration="10344000" />
+      <workItem from="1610986409510" duration="2921000" />
+      <workItem from="1611238144156" duration="5235000" />
+      <workItem from="1611564848930" duration="863000" />
+      <workItem from="1611566140218" duration="92000" />
+      <workItem from="1613991995938" duration="4173000" />
+      <workItem from="1614107139017" duration="3499000" />
+      <workItem from="1614188100855" duration="21000" />
+      <workItem from="1614188123736" duration="370000" />
+      <workItem from="1614188524701" duration="634000" />
+      <workItem from="1614862824798" duration="18599000" />
+      <workItem from="1618646478541" duration="4121000" />
+      <workItem from="1618944458262" duration="9961000" />
+      <workItem from="1619083104585" duration="4962000" />
+      <workItem from="1619093622387" duration="219000" />
+      <workItem from="1619093859519" duration="1989000" />
+      <workItem from="1619547425364" duration="5354000" />
+      <workItem from="1619596716072" duration="1454000" />
+      <workItem from="1619600468093" duration="3570000" />
+      <workItem from="1619604062480" duration="5121000" />
+      <workItem from="1619855505477" duration="4937000" />
+      <workItem from="1619860473301" duration="689000" />
+      <workItem from="1619961637554" duration="2229000" />
+      <workItem from="1619963890848" duration="704000" />
+      <workItem from="1619964617405" duration="6602000" />
+      <workItem from="1620670163564" duration="7039000" />
+      <workItem from="1620677231099" duration="1598000" />
+      <workItem from="1620723410495" duration="10357000" />
+      <workItem from="1620843884592" duration="4733000" />
+      <workItem from="1622363098109" duration="6270000" />
+      <workItem from="1622449620242" duration="5175000" />
+      <workItem from="1622468102945" duration="4210000" />
+      <workItem from="1623697584499" duration="3802000" />
+      <workItem from="1623701880838" duration="774000" />
+      <workItem from="1623931416878" duration="2390000" />
+      <workItem from="1625077649475" duration="2486000" />
+      <workItem from="1626206799165" duration="1168000" />
+      <workItem from="1628541968654" duration="4787000" />
+      <workItem from="1628628134415" duration="82000" />
+      <workItem from="1628628238961" duration="1210000" />
+      <workItem from="1628712587118" duration="5141000" />
+      <workItem from="1629037368409" duration="8424000" />
+      <workItem from="1629109506872" duration="4656000" />
+      <workItem from="1629195113069" duration="353000" />
+      <workItem from="1629312690535" duration="950000" />
+      <workItem from="1629795766565" duration="1203000" />
+      <workItem from="1629830421015" duration="608000" />
+      <workItem from="1629962116614" duration="7148000" />
+      <workItem from="1630132434256" duration="1647000" />
+      <workItem from="1630142275799" duration="1996000" />
+      <workItem from="1630310056595" duration="1199000" />
+      <workItem from="1630319679077" duration="4760000" />
+      <workItem from="1630485793266" duration="1060000" />
+      <workItem from="1631459714382" duration="6626000" />
+      <workItem from="1631636967432" duration="540000" />
+      <workItem from="1631637556866" duration="9000" />
+      <workItem from="1631639273561" duration="62000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/imports/ui/components/button/component.jsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

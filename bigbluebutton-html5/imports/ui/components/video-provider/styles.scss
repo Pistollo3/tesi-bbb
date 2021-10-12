@@ -1,0 +1,10 @@
+@import "/imports/ui/stylesheets/variables/_all";
+@import "/imports/ui/stylesheets/variables/video";
+
+:root {
+  --color-white-with-transparency: #ffffff40;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,70 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/users/ValidateAuthTokenReqMsgHdlr.scala:8:62: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.core2.message.senders.{ MsgBuilder, Sender }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/VoiceConfCallStateEvtMsgHdlr.scala:4:40: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.core.models.{ VoiceUserState, VoiceUsers }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/voice/VoiceConfCallStateEvtMsgHdlr.scala:4:56: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.core.models.{ VoiceUserState, VoiceUsers }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/SendCursorPositionPubMsgHdlr.scala:25:11: local val meetingId in method handle is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val meetingId = liveMeeting.props.meetingProp.intId[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/SendCursorPositionPubMsgHdlr.scala:26:11: local val reason in method handle is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val reason = "No permission to send your cursor position."[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/SendWhiteboardAnnotationPubMsgHdlr.scala:45:9: local method testInsertSomeNoneValues in method handle is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def testInsertSomeNoneValues(annotation: AnnotationVO): AnnotationVO = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/SendWhiteboardAnnotationPubMsgHdlr.scala:51:9: local method printAnnotationShape in method handle is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def printAnnotationShape(annotationInfo: scala.collection.immutable.Map[String, Any], annotation: AnnotationVO): AnnotationVO = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/apps/whiteboard/SendWhiteboardAnnotationPubMsgHdlr.scala:61:9: local method printAnnotationInfo in method handle is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def printAnnotationInfo(annotation: AnnotationVO): AnnotationVO = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:2:21: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport akka.actor.{ Actor, ActorLogging, Props }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:2:28: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport akka.actor.{ Actor, ActorLogging, Props }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:2:42: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport akka.actor.{ Actor, ActorLogging, Props }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:3:26: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.SystemConfiguration[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:4:39: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.fasterxml.jackson.databind.JsonNode[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:6:35: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.core.bus._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:7:32: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.core2.ReceivedMessageRouter[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:8:39: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport scala.reflect.runtime.universe._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:9:38: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.common2.bus.ReceivedJsonMessage[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/ExcludeUserVoiceMsg.scala:10:38: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.common2.bus.IncomingJsonMessageBus[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Polls.scala:461:15: private var _responders in class Poll is never updated: consider using immutable val[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private var _responders = new ArrayBuffer[Responder]()[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Polls.scala:593:15: private var currentPoll in class Polls is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private var currentPoll: Option[Poll] = None[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/PresentationPods.scala:4:38: imported `PresentationInPod' is permanently hidden by definition of object PresentationInPod in package models[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.core.models.PresentationInPod[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/PresentationPods.scala:3:41: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.bigbluebutton.common2.domain.PageVO[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/daniele/Desktop/bbb-thesis/akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Users2x.scala:209:15: private method findUserFromCache in class Users2x is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def findUserFromCache(intId: String): Option[UserState] = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m23 warnings found[0m

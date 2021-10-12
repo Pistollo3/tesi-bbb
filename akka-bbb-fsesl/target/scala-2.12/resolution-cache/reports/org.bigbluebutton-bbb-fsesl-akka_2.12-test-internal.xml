@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-resolve-0ec7fe30d58e379a8c198d16847c14e13e2f7523"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, linux, windows, docker, debian, rpm, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20210422145822"/>
+	<dependencies>
+		<module organisation="org.bigbluebutton" name="bbb-fsesl-client">
+			<revision name="0.0.7-SNAPSHOT" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="org.scala-sbt.temp" name="temp-resolve-0ec7fe30d58e379a8c198d16847c14e13e2f7523" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.7-SNAPSHOT" rev-constraint-default="0.0.7-SNAPSHOT" rev-constraint-dynamic="0.0.7-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

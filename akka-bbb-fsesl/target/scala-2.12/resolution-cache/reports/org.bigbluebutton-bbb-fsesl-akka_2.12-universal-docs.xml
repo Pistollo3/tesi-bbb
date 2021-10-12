@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-resolve-0ec7fe30d58e379a8c198d16847c14e13e2f7523"
+		revision="1.0"
+		conf="universal-docs"
+		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, linux, windows, docker, debian, rpm, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20210422145822"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>
